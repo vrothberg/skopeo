@@ -277,7 +277,7 @@ golang.org/x/text/secure/bidirule
 golang.org/x/text/unicode/bidi
 golang.org/x/text/unicode/norm
 golang.org/x/text/transform
-# gopkg.in/yaml.v2 v2.0.0-20141029210843-d466437aa4ad
+# gopkg.in/yaml.v2 v2.2.2
 gopkg.in/yaml.v2
 # k8s.io/client-go v0.0.0-20181219152756-3dd551c0f083
 k8s.io/client-go/util/homedir

@@ -41,6 +41,6 @@ require (
 	go4.org v0.0.0-20190218023631-ce4c26f7be8e // indirect
 	golang.org/x/sync v0.0.0-20181108010431-42b317875d0f // indirect
 	golang.org/x/tools v0.0.0-20180917221912-90fa682c2a6e // indirect
-	gopkg.in/yaml.v2 v2.0.0-20141029210843-d466437aa4ad // indirect
+	gopkg.in/yaml.v2 v2.2.2 // indirect
 	k8s.io/client-go v0.0.0-20181219152756-3dd551c0f083 // indirect
 )
