@@ -4,8 +4,8 @@ go 1.12
 
 require (
 	github.com/containers/buildah v1.8.4
-	github.com/containers/image v3.0.2+incompatible
-	github.com/containers/image/v4 v4.0.0 // indirect
+	github.com/containers/image v3.0.2+incompatible // indirect
+	github.com/containers/image/v4 v4.0.0
 	github.com/containers/storage v1.13.4
 	github.com/docker/docker v0.0.0-20180522102801-da99009bbb11
 	github.com/go-check/check v0.0.0-20180628173108-788fd7840127
