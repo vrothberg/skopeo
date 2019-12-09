@@ -2,7 +2,6 @@ package main
 
 import (
 	"github.com/containers/buildah/pkg/unshare"
-	"github.com/containers/image/v5/storage"
 	"github.com/containers/image/v5/transports/alltransports"
 	"github.com/pkg/errors"
 	"github.com/syndtr/gocapability/capability"
@@ -36,10 +35,10 @@ func maybeReexec() error {
 }
 
 func reexecIfNecessaryForImages(imageNames ...string) error {
-	// Check if container-storage are used before doing unshare
+	// Check if container-storage is used before doing unshare
 	for _, imageName := range imageNames {
 		transport := alltransports.TransportFromImageName(imageName)
-		if transport != nil && transport.Name() == storage.Transport.Name() {
+		if transport != nil && transport.Name() == "containers-storage" {
 			return maybeReexec()
 		}
 	}
